@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "payment-discount-split"
+version = "0.1.0a1"
+description = "FR: Séparer escompte et règlement sans perdre les centimes | EN: Separate settlement discounts and payments without losing cents | ES: Separar descuentos y pagos sin perder céntimos"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+payment-discount-split = "payment_discount_split.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["payment_discount_split*"]

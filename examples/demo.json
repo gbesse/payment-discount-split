@@ -1,0 +1,17 @@
+{
+  "discount_basis_points": 100,
+  "lines": [
+    {
+      "id": "A",
+      "cents": 33
+    },
+    {
+      "id": "B",
+      "cents": 33
+    },
+    {
+      "id": "C",
+      "cents": 34
+    }
+  ]
+}

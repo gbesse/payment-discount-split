@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Séparer escompte et règlement sans perdre les centimes', 'en': 'Separate settlement discounts and payments without losing cents', 'es': 'Separar descuentos y pagos sin perder céntimos'}
